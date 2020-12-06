@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the Yeti - Responsive Home Page</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/navigation.css" />
+    <link rel="stylesheet" href="styles/hero.css" />
+    <link rel="stylesheet" href="styles/article.css" />
+    <link rel="stylesheet" href="styles/subscribe.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="main-nav">
+        <img class="nav-logo" src="images/Logo.svg" />
+        <button class="nav-toggle"></button>
+      </div>
+      <ul class="nav-items">
+        <li>Cameras</li>
+        <li>Lenses</li>
+        <li>Film</li>
+        <li>Accessories</li>
+        <li class="btn-sign-in">Sign In</li>
+        <li class="btn-sign-up">Sign Up</li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <div class="hero-img"></div>
+      <div class="hero-content">
+        <div class="hero-badge">
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+              fill="black"
+            />
+          </svg>
+          <span>Featured</span>
+        </div>
+        <h1>I'm passionate about photography, the art of it, sharing it.</h1>
+        <div class="author">by <span class="name">John Doe</span></div>
+        <div class="date">2 days ago</div>
+      </div>
+    </div>
+    <div class="articles">
+      <div class="articles-row-1">
+        <div class="article article--orange">
+          <div class="article-content">
+            <div class="title">
+              The 10 Best<br />
+              DSLR Cameras <br />
+              of 2021
+            </div>
+            <img
+              src="images/canon-850D.png"
+              alt="Canon 850D Camera"
+              class="image"
+            />
+          </div>
+          <div class="footer">
+            <div class="details">
+              <div class="author">by <span class="name">John Doe</span></div>
+              <div class="date">2 days ago</div>
+              <div class="category">Cameras</div>
+            </div>
+            <a class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="article article--beige">
+          <div class="article-content">
+            <div class="title">
+              The 5 batteries<br />
+              that will keep <br />
+              you going
+            </div>
+            <img
+              src="images/cannon-battery.png"
+              alt="Canon Battery"
+              class="image"
+            />
+          </div>
+          <div class="footer">
+            <div class="details">
+              <div class="author">by <span class="name">John Doe</span></div>
+              <div class="date">2 days ago</div>
+              <div class="category">Batteries</div>
+            </div>
+            <a class="btn">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="articles-row-2">
+        <div class="article article--gray-gradient">
+          <div class="article-content">
+            <div class="title">
+              Evolution of the <br />
+              top-class <br />
+              Z-series model
+            </div>
+            <img src="images/nikon.png" alt="Nikon Camera" class="image" />
+          </div>
+          <div class="footer">
+            <div class="details">
+              <div class="author">by <span class="name">John Doe</span></div>
+              <div class="date">2 days ago</div>
+              <div class="category">Z-Series</div>
+            </div>
+            <a class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="article article--red">
+          <div class="article-content">
+            <div class="title">
+              Print colors<br />
+              you need to<br />
+              try right now
+            </div>
+          </div>
+          <div class="footer">
+            <div class="details">
+              <div class="author">by <span class="name">John Doe</span></div>
+              <div class="date">2 days ago</div>
+              <div class="category">Colors</div>
+            </div>
+            <a class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="article article--aerial">
+          <div class="article-content">
+            <div class="title">
+              Best ways to<br />
+              achieve the best<br />
+              aerial footage<br />
+              with drones
+            </div>
+            <img src="images/drone.png" alt="Drone" class="image" />
+          </div>
+          <div class="footer">
+            <div class="details">
+              <div class="author">by <span class="name">John Doe</span></div>
+              <div class="date">2 days ago</div>
+              <div class="category">Drones</div>
+            </div>
+            <a class="btn">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="articles-row-3">
+        <div class="article article--city">
+          <div class="article-content">
+            <div class="title">
+              The best speed<br />
+              lights you need<br />
+              to try right now
+            </div>
+            <img src="images/speed-light.png" alt="Speed Light" class="image" />
+          </div>
+          <div class="footer">
+            <div class="details">
+              <div class="author">by <span class="name">John Doe</span></div>
+              <div class="date">2 days ago</div>
+              <div class="category">Lighting</div>
+            </div>
+            <a class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="article article--orange">
+          <div class="article-content">
+            <div class="title">
+              New lenses releasing<br />
+              in 2021
+            </div>
+            <img src="images/lense.png" alt="Camera Lense" class="image" />
+          </div>
+          <div class="footer">
+            <div class="details">
+              <div class="author">by <span class="name">John Doe</span></div>
+              <div class="date">2 days ago</div>
+              <div class="category">Lenses</div>
+            </div>
+            <a class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="article article--portraits">
+          <div class="article-content">
+            <div class="title">
+              Take your portraits<br />
+              to the next level <br />
+              with this camera
+            </div>
+            <img src="images/canon-R5.png" alt="Canon R-5" class="image" />
+          </div>
+          <div class="footer">
+            <div class="details">
+              <div class="author">by <span class="name">John Doe</span></div>
+              <div class="date">2 days ago</div>
+              <div class="category">Portraits</div>
+            </div>
+            <a class="btn">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="articles-row-4">
+        <div class="article article--concrete">
+          <div class="article-content">
+            <div class="title">
+              Stabilize your videos<br />
+              with this gimbal<br />
+              the professionals<br />
+              use
+            </div>
+            <img src="images/gimbal.png" alt="Canon R-5" class="image" />
+          </div>
+          <div class="footer">
+            <div class="details">
+              <div class="author">by <span class="name">John Doe</span></div>
+              <div class="date">2 days ago</div>
+              <div class="category">Gimbals</div>
+            </div>
+            <a class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="article article--yellow">
+          <div class="article-content">
+            <div class="title">
+              Taking your studio<br />
+              setup to the next level
+            </div>
+          </div>
+          <div class="footer">
+            <div class="details">
+              <div class="author">by <span class="name">John Doe</span></div>
+              <div class="date">2 days ago</div>
+              <div class="category">Studio</div>
+            </div>
+            <a class="btn">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="articles-row-5">
+        <div class="article article--yellow">
+          <div class="article-content">
+            <div class="title">
+              Taking close up <br />
+              photos is this easy
+            </div>
+          </div>
+          <div class="footer">
+            <div class="details">
+              <div class="author">by <span class="name">John Doe</span></div>
+              <div class="date">2 days ago</div>
+              <div class="category">Technique</div>
+            </div>
+            <a class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="article article--architecture">
+          <div class="article-content">
+            <div class="title">
+              Architecture photography <br />
+              is the new niche <br />
+              of 2021
+            </div>
+          </div>
+          <div class="footer">
+            <div class="details">
+              <div class="author">by <span class="name">John Doe</span></div>
+              <div class="date">2 days ago</div>
+              <div class="category">Architecture</div>
+            </div>
+            <a class="btn">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="articles-row-6">
+        <div class="article article--sport">
+          <div class="article-content">
+            <div class="title">
+              Learn how to <br />
+              take sports <br />
+              photographs in <br />
+              these 5 steps.
+            </div>
+          </div>
+          <div class="footer">
+            <div class="details">
+              <div class="author">by <span class="name">John Doe</span></div>
+              <div class="date">2 days ago</div>
+              <div class="category">Sport</div>
+            </div>
+            <a class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="article article--orange">
+          <div class="article-content">
+            <div class="title">
+              5 Techniques every<br />
+              beginner photographer<br />
+              needs to know<br />
+              right now
+            </div>
+          </div>
+          <div class="footer">
+            <div class="details">
+              <div class="author">by <span class="name">John Doe</span></div>
+              <div class="date">2 days ago</div>
+              <div class="category">Technique</div>
+            </div>
+            <a class="btn">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="articles-row-7">
+        <div class="article article--hollywood">
+          <div class="article-content">
+            <div class="title">
+              How to take<br />
+              aerial shots<br />
+              that look like<br />
+              a Hollywood film
+            </div>
+          </div>
+          <div class="footer">
+            <div class="details">
+              <div class="author">by <span class="name">John Doe</span></div>
+              <div class="date">2 days ago</div>
+              <div class="category">Technique</div>
+            </div>
+            <a class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="article article--forest">
+          <div class="article-content">
+            <div class="title">
+              Thinking of doing<br />
+              a forest photoshoot?<br />
+              Read this article before<br />
+              taking the plunge
+            </div>
+          </div>
+          <div class="footer">
+            <div class="details">
+              <div class="author">by <span class="name">John Doe</span></div>
+              <div class="date">2 days ago</div>
+              <div class="category">Outdoor</div>
+            </div>
+            <a class="btn">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subscribe">
+      <h2 class="subscribe-title">Join our occasional newsletter</h2>
+      <input
+        class="subscribe-email"
+        type="email"
+        placeholder="Enter your email address"
+      />
+      <button class="btn-subscribe">Subscribe</button>
+      <img src="images/Logo.svg" class="logo" />
+    </div>
+    <nav class="nav-footer">
+      <ul>
+        <li>Cameras</li>
+        <li>Lenses</li>
+        <li>Film</li>
+        <li>Accessories</li>
+      </ul>
+    </nav>
+  </body>
+</html>
