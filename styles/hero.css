@@ -3,6 +3,7 @@
 }
 
 .hero > .hero-img {
+  /* Photo By: https://unsplash.com/@we_are_rising https://unsplash.com/photos/VAGmKxa3dTQ */
   background: url("../images/hero-img.png") no-repeat;
   width: 100%;
   height: 498px;
@@ -60,6 +61,7 @@
   fill: #000000;
 }
 
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries */
 /* Larger than tablet */
 @media (min-width: 769px) {
   .hero {

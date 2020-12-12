@@ -26,6 +26,7 @@
 }
 
 .article.article--red {
+  /* Photo By: https://unsplash.com/@jontyson: https://unsplash.com/photos/3oXiciGXJ5c */
   background: url("../images/color-red.png") no-repeat;
   background-size: cover;
   background-position: center;
@@ -33,6 +34,7 @@
 }
 
 .article.article--aerial {
+  /* Photo By: https://unsplash.com/@unstable_affliction: https://unsplash.com/photos/UM1wrLpwTOs*/
   background: url("../images/aerial.png") no-repeat;
   background-size: cover;
   background-position: center;
@@ -40,6 +42,7 @@
 }
 
 .article.article--city {
+  /* Photo By: https://unsplash.com/@malteesimo: https://unsplash.com/photos/enGr5YbjQKQ */
   background: url("../images/city.png") no-repeat;
   background-size: cover;
   background-position: center;
@@ -47,6 +50,7 @@
 }
 
 .article.article--portraits {
+  /* Photo By: https://unsplash.com/@juanmaforpresident https://unsplash.com/photos/wNQ180WtW5g */
   background: url("../images/potrait.png") no-repeat;
   background-size: cover;
   background-position: center;
@@ -54,6 +58,7 @@
 }
 
 .article.article--concrete {
+  /* Photo By: https://unsplash.com/@mbuff https://unsplash.com/photos/EjnPmNJ5Hf8 */
   background: url("../images/concrete.png") no-repeat;
   background-size: cover;
   background-position: center;
@@ -66,6 +71,7 @@
 }
 
 .article.article--architecture {
+  /* Photo By: https://unsplash.com/@dichatz https://unsplash.com/photos/lvFBBm8sn2o */
   background: url("../images/architecture.png") no-repeat;
   background-size: cover;
   background-position: center;
@@ -73,6 +79,7 @@
 }
 
 .article.article--sport {
+  /* Photo By: https://unsplash.com/@tompottiger https://unsplash.com/photos/23ZL8GbiK0g */
   background: url("../images/sport.png") no-repeat;
   background-size: cover;
   background-position: center;
@@ -80,6 +87,7 @@
 }
 
 .article.article--hollywood {
+  /* Photo By: https://unsplash.com/@lili_popper https://unsplash.com/photos/zJzgy7PnmW4 */
   background: url("../images/hollywood.png") no-repeat;
   background-size: cover;
   background-position: center;
@@ -87,6 +95,7 @@
 }
 
 .article.article--forest {
+  /* Photo By: https://unsplash.com/@ventiviews https://unsplash.com/photos/dkJGj7-Qi5g */
   background: url("../images/woods.png") no-repeat;
   background-size: cover;
   background-position: center;
