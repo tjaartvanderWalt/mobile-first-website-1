@@ -1,0 +1,125 @@
+.nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  width: 113px;
+}
+
+.nav-toggle {
+  border: none;
+  background: url("../images/burger-menu.svg") no-repeat;
+  height: 27px;
+  width: 30px;
+}
+
+.nav.open > .main-nav > .nav-toggle {
+  background: url("../images/icon-close.svg") no-repeat;
+}
+
+.nav.open > .nav-items {
+  display: flex;
+}
+
+.nav-items {
+  display: none;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  width: 100%;
+}
+
+.nav-items > li {
+  margin: 0;
+  padding: 16px;
+  font-size: 14px;
+  line-height: 19px;
+  border-bottom: 1px solid #c6c6c6;
+  list-style: none;
+  white-space: nowrap;
+}
+
+.nav-footer > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 0 32px;
+  padding: 0;
+}
+
+.nav-footer > ul > li {
+  list-style: none;
+}
+
+.nav-footer > ul > li:not(:last-child) {
+  margin-right: 8px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .nav {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 0;
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-items {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+  }
+
+  .nav-items > li {
+    border-bottom: 0;
+    align-self: baseline;
+  }
+
+  .nav-items > li:not(:last-child) {
+    margin-right: 8px;
+  }
+
+  .nav-items > li.btn-sign-in,
+  .nav-items > li.btn-sign-up {
+    border-radius: 8px;
+    padding: 6px 34px;
+  }
+
+  .nav-items > li.btn-sign-in {
+    background-color: #dedede;
+  }
+
+  .nav-items > li.btn-sign-up {
+    background-color: #6b7c8f;
+    color: #ffffff;
+  }
+
+  .nav-footer > ul {
+    margin-bottom: 76px;
+  }
+
+  .nav-footer > ul > li:not(:last-child) {
+    margin-right: 32px;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 769px) {
+  .nav-items > li:not(:last-child) {
+    margin-right: 35px;
+  }
+}

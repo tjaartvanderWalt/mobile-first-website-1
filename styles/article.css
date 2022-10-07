@@ -1,0 +1,228 @@
+.article {
+  min-height: 330px;
+  padding: 18px;
+  margin-left: 16px;
+  margin-right: 16px;
+  border-radius: 26px;
+  margin-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.article.article--orange {
+  background-color: #f7892f;
+  color: #ffffff;
+}
+
+.article.article--beige {
+  background-color: #dcc8aa;
+  color: #000000;
+}
+
+.article.article--gray-gradient {
+  background: linear-gradient(52.83deg, #e2e5ed 0%, #f1f4f4 100%);
+  color: #000000;
+}
+
+.article.article--red {
+  background: url("../images/color-red.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+.article.article--aerial {
+  background: url("../images/aerial.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+.article.article--city {
+  background: url("../images/city.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+.article.article--portraits {
+  background: url("../images/potrait.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+.article.article--concrete {
+  background: url("../images/concrete.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+.article.article--yellow {
+  background-color: #f9c331;
+  color: #ffffff;
+}
+
+.article.article--architecture {
+  background: url("../images/architecture.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+.article.article--sport {
+  background: url("../images/sport.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+.article.article--hollywood {
+  background: url("../images/hollywood.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+.article.article--forest {
+  background: url("../images/woods.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+.article > .article-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.article > .article-content > .title {
+  font-size: 25px;
+  line-height: 34px;
+}
+
+.article > .article-content > .image {
+  height: 155px;
+  max-width: 100%;
+  align-self: flex-end;
+}
+
+.article > .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.article > .footer > .details {
+  display: flex;
+  flex-direction: column;
+}
+
+.article > .footer > .details > .author {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 5px;
+}
+
+.article > .footer > .details > .author > .name {
+  font-weight: bold;
+}
+
+.article > .footer > .details > .date {
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 11px;
+}
+
+.article > .footer > .details > .category {
+  font-size: 10px;
+  line-height: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.article > .footer > .btn {
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  align-self: flex-end;
+  padding: 5px 11px;
+}
+
+.article.article--beige > .footer > .btn,
+.article.article--gray-gradient > .footer > .btn {
+  color: #000000;
+}
+
+.article.article--beige > .footer > .btn {
+  background-color: #ffffff;
+  border: 0;
+}
+
+.article.article--gray-gradient > .footer > .btn {
+  border-color: #000000;
+}
+
+@media (min-width: 769px) {
+  .articles-row-1,
+  .articles-row-2,
+  .articles-row-3,
+  .articles-row-4,
+  .articles-row-5,
+  .articles-row-6,
+  .articles-row-7 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .articles-row-1 > *,
+  .articles-row-4 > *,
+  .articles-row-5 > *,
+  .articles-row-6 > *,
+  .articles-row-7 > * {
+    width: 50%;
+  }
+
+  .articles-row-2 > *,
+  .articles-row-3 > * {
+    width: 33%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .articles {
+    margin-left: 116px;
+    margin-right: 116px;
+  }
+
+  .articles-row-1 > *:first-child,
+  .articles-row-5 > *:first-child {
+    width: 30%;
+  }
+
+  .articles-row-1 > *:last-child,
+  .articles-row-5 > *:last-child {
+    width: 70%;
+  }
+
+  .articles-row-4 > *:first-child,
+  .articles-row-6 > *:first-child {
+    width: 70%;
+  }
+
+  .articles-row-4 > *:last-child,
+  .articles-row-6 > *:last-child {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .articles {
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+}
