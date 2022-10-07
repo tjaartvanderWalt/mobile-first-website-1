@@ -4,6 +4,8 @@
 
 [01. Building The Navigation](https://youtu.be/1V8_ZcVTiow)
 
+The Figma file can be found [here](./Mobile-First-Responsive-Home-Page.fig)
+
 ### Mobile
 
 ![Mobile Screen Size](./images/render-mobile.png)
